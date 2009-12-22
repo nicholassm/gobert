@@ -1,0 +1,6 @@
+This project aims to implement the BERT serialization format in Go, and
+subsequently a BERT-RPC server.
+
+See the BERT specification at bert-rpc.org.
+
+The library is not functional at all (yet?).
