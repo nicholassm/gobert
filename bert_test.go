@@ -14,7 +14,7 @@ func assertBytesEqual(t *testing.T, message string, expected, actual []byte) {
 }
 
 func testEncode(t *testing.T, message string, val interface{}, expected []byte) {
-  out         := new(bytes.Buffer);
+  out := new(bytes.Buffer);
   Encode(out, val);
   assertBytesEqual(t, message, expected, out.Bytes());
 }
